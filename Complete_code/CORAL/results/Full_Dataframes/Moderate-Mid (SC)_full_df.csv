@@ -1,0 +1,16 @@
+Corresponding_vessels,Corresponding_actions,Engine_on_hours
+AHTS,Idle at port,42803.75
+AHTS,Idle at sea,127772.45550000001
+AHTS,Maneuvering,11762.0
+AHTS,Transit,31943.49063333333
+CLV,Idle at port,100434.25
+CLV,Idle at sea,2431.5
+CLV,Maneuvering,3962.0
+CLV,Transit,48034.72803371181
+HLV,Idle at port,665644.125
+HLV,Transit,15496.0
+Onshore,Idle at port,0.0
+Towing Group,Idle at port,348969.75
+Towing Group,Idle at sea,151086.0
+Towing Group,Maneuvering,11622.0
+Towing Group,Transit,336864.53304545453
