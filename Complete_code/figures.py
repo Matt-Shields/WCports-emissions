@@ -74,7 +74,7 @@ def activity_plot(sn, df_name):
 
     ax.set_xticklabels(df['Scenario name'])
     ax.set_title('Absolute emissions by activity', weight='bold')
-    ax.set_xlabel('Scenario', weight='bold')
+    ax.set_xlabel('Deployment Scenario', weight='bold')
 
     savedir = 'Figures/'
     fig = ax.get_figure()
