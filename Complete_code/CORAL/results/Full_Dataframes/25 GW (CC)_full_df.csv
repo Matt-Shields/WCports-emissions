@@ -1,6 +1,7 @@
 Corresponding_vessels,Corresponding_actions,Engine_on_hours
-HLV,Idle at port,450177.5
-HLV,Transit,11088.0
+Onshore,Idle at port,25368.5
+Onshore,None,424809.0
+Onshore,Transit,11088.0
 Towing Group,Idle at port,672579.5244204547
 Towing Group,Idle at sea,108108.0
 Towing Group,Maneuvering,8316.0
