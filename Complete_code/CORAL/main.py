@@ -4,8 +4,7 @@ import numpy as np
 
 from functions import map_columns, calc_and_group_durations, add_emissions
 
-scenarios = ['Baseline-Low', 'Baseline-Mid (CC)', 'Baseline-Mid (SC)', 'Moderate-low', 'Moderate-Mid (SC)', 'Expanded-high']
-#scenarios = ['Baseline-Low']
+scenarios = ['25 GW (SC)', '25 GW (CC)', '35 GW', '55 GW']
 savedir = 'results/Emissions/'
 total = pd.DataFrame()
 
