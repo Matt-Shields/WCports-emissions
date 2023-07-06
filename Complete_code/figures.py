@@ -64,8 +64,11 @@ def activity_plot(sn, df_name):
     activities = ['Transit', 'Maneuvering', 'Idle at port', 'Idle at sea']
     for a in activities:
         df[a] = df[a]/1000000
+        
+    fig = plt.figure(figsize=(9, 6))
+    ax = fig.add_subplot(111)
 
-    ax = df.plot.bar(x = 'Scenario name', y = ['Transit', 'Maneuvering', 'Idle at sea', 'Idle at port'], color=['#C0392B', '#2980B9', '#FFC107', '#27AE60'], stacked = True, rot=0, title='Scenario-wide emissions by vessel activity')
+    df.plot.bar(x = 'Scenario name', y = ['Transit', 'Maneuvering', 'Idle at sea', 'Idle at port'], color=['#C0392B', '#2980B9', '#FFC107', '#27AE60'], stacked = True, rot=0, title='Scenario-wide emissions by vessel activity', ax=ax)
     plt.ylabel('Million metric tons of CO2', weight='bold')
     plt.legend(loc = 'upper left')
 
@@ -75,6 +78,7 @@ def activity_plot(sn, df_name):
 
     savedir = 'Figures/'
     fig = ax.get_figure()
+    
     savefig = savedir + 'emissions-by-activity.png'
     fig.savefig(savefig, bbox_inches='tight', dpi=300)
 
